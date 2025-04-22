@@ -1,0 +1,56 @@
+<!-- projectConsultationTemplate.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONSULTA DE PROYECTO</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 80%;
+      margin: auto;
+    }
+    h2 {
+      color: #4CAF50;
+      text-align: center;
+    }
+    .details {
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .footer {
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>📬 NUEVO MENSAJE DE CONSULTA DE PROYECTO</h2>
+    <div class="details">
+      <p><strong>Nombre:</strong> {{nombre}}</p>
+      <p><strong>Email:</strong> {{email}}</p>
+      <p><strong>Teléfono:</strong> {{telefono}}</p>
+      <p><strong>Tipo de Proyecto:</strong> {{proyecto}}</p>
+      <p><strong>Tecnologías:</strong> {{tecnologias}}</p>
+      <p><strong>Descripción del Proyecto:</strong><br>{{descripcion}}</p>
+    </div>
+    <div class="footer">
+      <p>Este mensaje fue generado automáticamente desde el formulario de consulta en nuestro sitio web.</p>
+    </div>
+  </div>
+</body>
+</html>
